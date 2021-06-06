@@ -100,8 +100,12 @@ source $ZSH/oh-my-zsh.sh
 # Sublime alias
 alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 
-# Default to Homebrew's installed python version
-export PATH="/usr/local/opt/python/libexec/bin:$PATH"
+# add Homebrew to path 
+export PATH="/opt/homebrew/bin:$PATH"
+
+# python3 / pip3 aliases
+alias python=python3
+alias pip=pip3
 
 # convenient things
 alias wiki="subl ~/projects/personal-wiki/"
